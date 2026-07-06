@@ -34,7 +34,7 @@ $$\text{Active Topic Hash} = \text{HMAC-SHA256}(\text{Master Secret}, \text{Room
 
 Because the hashing process is non-reversible, a broker or external analyst cannot associate sequential historical topic streams to map node relationships.
 
-### Absolute Connection Signatures Erasure
+### Connection Signatures Erasure
 To avoid leaving operational footprints inside the broker's active client connection tables, the core engine strips out identifiable application prefixes. 
 * Connection Client IDs are computed via a cryptographically secure random sequence generator (`crypto/rand`), yielding a flat, anonymous 16-character hexadecimal string block. 
 * To a monitoring system, BastionRoute connections match the formatting configuration of unconfigured generic consumer IoT appliances, preventing signature analysis finger-printing.
