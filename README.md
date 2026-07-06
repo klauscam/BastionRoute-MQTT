@@ -68,7 +68,14 @@ BastionRoute fixes this behavior through its user-space queue design:
 3. By introducing intentional packet loss during network degradation, the shim allows the underlying WireGuard client to naturally drop its window limits and activate its native error correction routines. This prevents system freezes and preserves operational throughput.
 
 ---
-## 4. Usage
+
+
+## 4. Experimental Status
+
+This software is currently alpha-quality software and should be evaluated thoroughly before production deployment.
+
+
+## 5. Usage
 
 BastionRoute-mqtt is provided for legitimate network administration, education, research, and authorized deployment scenarios only.
 
@@ -76,6 +83,6 @@ Users are solely responsible for ensuring compliance with applicable laws, regul
 
 This software does not include mechanisms for enforcing usage restrictions and should not be deployed in environments where its use would violate applicable rules or agreements.
 
-## 5. Disclaimer
+## 6. Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
