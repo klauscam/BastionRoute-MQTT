@@ -3,7 +3,7 @@
 This document provides a deep architectural breakdown, design justification, and operational assessment of the `bastionroute-mqtt` system component. 
 
 ---
-## This is the official and original repository for BastionRoute maintained by klauscam
+## This is the official and original repository for BastionRoute-MQTT maintained by klauscam
 
 
 ## 1. Architectural Architecture & Design Decisions
