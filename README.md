@@ -1,4 +1,4 @@
-# Technical Documentation: BastionRoute MQTT Shim (v0.2.0-alpha)
+# BastionRoute MQTT Shim (v0.1.0-alpha)
 
 This document provides a deep architectural breakdown, design justification, and operational assessment of the `bastionroute-mqtt` system component. 
 
