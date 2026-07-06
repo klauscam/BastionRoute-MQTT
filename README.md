@@ -68,7 +68,7 @@ BastionRoute fixes this behavior through its user-space queue design:
 ---
 ## 4. Usage
 
-BastionRoute-mqtt is provided for legitimate network administration, research, and authorized deployment scenarios only.
+BastionRoute-mqtt is provided for legitimate network administration, education, research, and authorized deployment scenarios only.
 
 Users are solely responsible for ensuring compliance with applicable laws, regulations, and organizational policies when deploying or using this software.
 
